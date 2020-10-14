@@ -1,2 +1,1 @@
-#!/bin/sh
-git rev-list --all | head -5
+git log --pretty=format:%H -5
