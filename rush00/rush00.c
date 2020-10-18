@@ -14,7 +14,7 @@ void ft_putchar(char c);
 
 void test(int x, int y, int x1, int y1){
 
-	if(x1 == 00 && ( y1 == 0 || y1 == y-1 )){
+	if(x1 == 0 && ( y1 == 0 || y1 == y-1 )){
 		ft_putchar('A');
 	}else if(x1 == x-1 && ( y1 == 0 || y1 == y-1 )){
 		ft_putchar('C');
