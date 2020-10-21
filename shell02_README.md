@@ -195,4 +195,24 @@ what do the each options role in?
 
 
 
+# ex07 multiple commands 
+
+1. `cut -d ':' -f 7`
+
+`cut` command cuts the printout record by seperating delimiter. User can define a delimiter, and extract a specific characters from it.
+
+-f means 'field number' which is delimited by delimiter. Delimeter means as , : . like the special characters.
+so -d option define the delimiter which seperates each fields by its character.
+
+2. `tr`
+
+tr is 'translate characters'. tr command is similar with awk and sed, but 
+`tr A into B` means, translates A all characters into B. 
+
+differences between `tr` and `awk`,`sed`?
+
+[`tr` is for the character targeting edit, but `awk` is for field edit, `sed` is for the line by line.](https://unix.stackexchange.com/questions/427940/main-difference-between-tr-translate-to-sed-and-awk#:~:text=tr%20works%20on%20characters%20(changes,by%20setting%20FS%20and%20RS%20))
+
+
+
 
