@@ -1,0 +1,15 @@
+18,19c18,20
+< 	addl	$1, %eax
+< 	movl	%eax, -8(%rbp)
+---
+> 	movl	%eax, %ecx
+> 	addl	$1, %ecx
+> 	movl	%ecx, -8(%rbp)
+25c26
+< 	xorl	%esi, %esi
+---
+> 	xorl	%ecx, %ecx
+27c28
+< 	movl	%esi, %eax
+---
+> 	movl	%ecx, %eax
