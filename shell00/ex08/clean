@@ -1,1 +1,5 @@
+# File: clean
+# Type: Shell script (single command)
+# Purpose: Clean up backup and temporary files (ending with ~ or surrounded by #) in the current directory tree.
+# Shell Concepts: find command, -type f, -name pattern matching, -delete, -print, file cleanup automation.
 find . -type f \( -name '*~' -or -name '#*#' \) -delete -print

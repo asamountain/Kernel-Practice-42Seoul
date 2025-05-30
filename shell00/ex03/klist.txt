@@ -1,3 +1,7 @@
+# File: klist.txt
+# Type: Plain text file (Kerberos ticket cache output)
+# Purpose: Demonstrate the output of the 'klist' command, which lists Kerberos tickets for the current user/session.
+# Shell/System Concepts: Kerberos authentication, ticket cache, principal, ticket expiration, and system security context.
 Credentials cache: API:ECEA4FC5-9583-4573-B921-CE58988D5243
         Principal: seyoun@42SEOUL.KR
 

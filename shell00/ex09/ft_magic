@@ -1,1 +1,5 @@
+# File: ft_magic
+# Type: Magic file (for the 'file' command)
+# Purpose: Define a custom file signature so the 'file' utility can recognize files with specific content as a custom type.
+# Shell Concepts: file command, magic file format, custom file type recognition, file signature definition.
 41 string 42 42 file

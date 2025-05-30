@@ -10,6 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Practice: Print a single character to standard output.
+// Concepts: Function definition, use of write system call, character output.
+
 #include <unistd.h>
 
 void ft_putchar(char c){

@@ -10,6 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Practice: Draws a rectangle with ASCII characters for rush00.
+// Concepts: Loops, conditionals, function decomposition, output formatting.
+
 void ft_putchar(char c);
 
 void test(int x, int y, int x1, int y1){

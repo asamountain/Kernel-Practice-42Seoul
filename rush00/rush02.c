@@ -10,6 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Practice: Draws a rectangle with ASCII characters for rush02.
+// Concepts: Loops, conditionals, function decomposition, output formatting, ASCII art.
+
 #include <unistd.h>
 
 void	ft_putchar(char c);

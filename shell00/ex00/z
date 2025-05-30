@@ -1,1 +1,5 @@
+# File: z
+# Type: Plain text file (no extension, single character content)
+# Purpose: Practice creating a file with a specific name and content, and understanding file permissions and minimal shell file requirements.
+# Shell Concepts: File creation, naming conventions, permissions, and file content.
 Z

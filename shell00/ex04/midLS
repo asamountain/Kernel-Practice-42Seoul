@@ -1,1 +1,5 @@
+# File: midLS
+# Type: Shell script (single command)
+# Purpose: List directory contents in creation order (not sorted), demonstrating the use of ls with the -U option.
+# Shell Concepts: ls command, -U option for unsorted output, command execution, and file listing.
 ls -Utmp
